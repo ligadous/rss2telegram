@@ -1,0 +1,11 @@
+{
+    "token": "TOKEN_STRING",
+    "channels": [{
+        "name": "@CHANNEL_OR_USER'S_ID",
+        "feeds": [{
+            "url": "https://LINK_TO_RSS",
+            "update": "1",
+            "template": "%_ITEM_TITLE_%\n%_ITEM_LINK_%"
+        }]
+    }]
+}
